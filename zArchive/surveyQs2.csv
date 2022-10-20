@@ -1,0 +1,29 @@
+question,option,input_type,input_id,dependence,dependence_value,required
+What's your email?,NA,text,email,NA,NA,TRUE
+"Name of observer, if provided",NA,text,observer,NA,NA,FALSE
+"Role of observer, if provided",Community member,mc,observerRole,NA,NA,FALSE
+"Role of observer, if provided",Researcher,mc,observerRole,NA,NA,FALSE
+Date of reporting,NA,date,date,NA,NA,FALSE
+Location,US,mc,country,NA,NA,FALSE
+Location,Canada,mc,country,NA,NA,FALSE
+Canadian province,Yukon,select,CAprovince,country,Canada,FALSE
+Canadian province,NWT,select,CAprovince,country,Canada,FALSE
+Canadian province,Nunavut,select,CAprovince,country,Canada,FALSE
+Canadian province,Quebec,select,CAprovince,country,Canada,FALSE
+Canadian province,Newfoundland,select,CAprovince,country,Canada,FALSE
+Canadian province,Prince Edward Island,select,CAprovince,country,Canada,FALSE
+Canadian province,Novia Scotia,select,CAprovince,country,Canada,FALSE
+Canadian province,New Brunswick,select,CAprovince,country,Canada,FALSE
+Quote (copy the text of the observation directly),NA,text,quote,NA,NA,TRUE
+Page Number,NA,numeric,page,NA,NA,FALSE
+Line Number,NA,numeric,line,NA,NA,FALSE
+Environment keywords,Weather,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Snow,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Ice,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Rain,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Vegetation,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Wolves,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Bears,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Water crossing,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Other,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,NA,text,environmentOther,environment,Other,FALSE

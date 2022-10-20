@@ -1,0 +1,23 @@
+#### Steps
+
+1. Make certain fields required. (document name, quote)
+
+2. Make email forced to be correcty formatted. shinyvalidate package
+
+  # Validation rules are set in the server, start by
+  # making a new instance of an `InputValidator()`
+  iv <- InputValidator$new()
+  
+  # Basic usage: `sv_email()` works well with its
+  # defaults; a message will be displayed if the
+  # validation of `input$email` fails
+  iv$add_rule("email", sv_email())
+  
+  # Finally, `enable()` the validation rules
+  iv$enable()
+
+3. Make submit button clear the main panel
+
+4. Make clear button for side panel
+
+5. Where should these be saved that aren't just my laptop? SQL, google sheet? https://shiny.rstudio.com/articles/persistent-data-storage.html

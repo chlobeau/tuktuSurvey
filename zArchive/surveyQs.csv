@@ -1,0 +1,49 @@
+question,option,input_type,input_id,dependence,dependence_value,required
+What's your email?,NA,text,email,NA,NA,TRUE
+"Name of observer, if provided",NA,text,observer,NA,NA,FALSE
+"Role of observer, if provided",Community member,mc,observerRole,NA,NA,FALSE
+"Role of observer, if provided",Researcher,mc,observerRole,NA,NA,FALSE
+Date of reporting (YYYY-MM-DD),NA,date,date,NA,NA,FALSE
+Location,US,mc,country,NA,NA,FALSE
+Location,Canada,mc,country,NA,NA,FALSE
+Canadian province,Yukon,select,CAprovince,country,Canada,FALSE
+Canadian province,NWT,select,CAprovince,country,Canada,FALSE
+Canadian province,Nunavut,select,CAprovince,country,Canada,FALSE
+Canadian province,Quebec,select,CAprovince,country,Canada,FALSE
+Canadian province,Newfoundland,select,CAprovince,country,Canada,FALSE
+Canadian province,Prince Edward Island,select,CAprovince,country,Canada,FALSE
+Canadian province,Novia Scotia,select,CAprovince,country,Canada,FALSE
+Canadian province,New Brunswick,select,CAprovince,country,Canada,FALSE
+Quote (copy the text of the observation directly),NA,text,quote,NA,NA,TRUE
+Page Number,NA,numeric,page,NA,NA,FALSE
+Line Number,NA,numeric,line,NA,NA,FALSE
+Environment keywords,Weather,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Snow,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Ice,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Rain,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Vegetation,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Wolves,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Bears,checkboxGroup,environment,NA,NA,FALSE
+Environment keywords,Water crossing,checkboxGroup,environment,NA,NA,FALSE
+Other environment keywords (separate by comma),NA,text,environment_other,NA,NA,FALSE
+Human impacts,Mining,checkboxGroup,human,NA,NA,FALSE
+Human impacts,Harvest,checkboxGroup,human,NA,NA,FALSE
+Human impacts,Roads,checkboxGroup,human,NA,NA,FALSE
+Other human impact keywords (separate by comma),NA,text,human_other,NA,NA,FALSE
+Caribou keywords,Migration,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Calves,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Cows,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Bulls,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Rut,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Body condition,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Historic abundance,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Current abundance,checkboxGroup,caribou,NA,NA,FALSE
+Caribou keywords,Mortality,checkboxGroup,caribou,NA,NA,FALSE
+Other caribou keywords (separate by comma),NA,text,caibou_other,NA,NA,FALSE
+Other keywords,Worms,checkboxGroup,other,NA,NA,FALSE
+Other keywords,Flies,checkboxGroup,other,NA,NA,FALSE
+Other keywords,Disease,checkboxGroup,other,NA,NA,FALSE
+Any other keywords (separate by comma),NA,text,other_other,NA,NA,FALSE
+Season,Summer,checkboxGroup,season,NA,NA,FALSE
+Season,Winter,checkboxGroup,season,NA,NA,FALSE
+Comments,NA,text,comments,NA,NA,FALSE
